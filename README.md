@@ -12,12 +12,12 @@ Planning repository for the **PlayToEarn Playground**: a minigames area on playt
 
 ## What is decided
 
-The owner's decisions are logged in [docs/OWNER-DECISIONS.md](docs/OWNER-DECISIONS.md) (D1 to D40, newest wins). In short:
+The owner's decisions are logged in [docs/OWNER-DECISIONS.md](docs/OWNER-DECISIONS.md) (D1 to D42, newest wins). In short:
 
 - 10 endless games that get harder until you fail, with the mascots Teddy, Bull and Dragonwhale as heroes (never the logo or text on their clothes), all names, art and sound our own.
 - Per game per day: 3 free tries, 9 with Plus. Then 10 points per try, or one rewarded ad per try in the app (AdMob, verified on the server). No ads on the website or for Plus members; an ad never gives points.
 - Weekly leaderboard per game: top 100 share 5,000 points. All-Games Leaderboard with Trophies (101 minus rank per game): top 100 share 25,000 points plus the Community Bonus (50% of the week's points-try spend, counted live, formula never shown to players).
-- Payouts after review, a verified identity for prizes, a reward lock of at least 14 days for new accounts, no region restrictions inside the game system.
+- Payouts after review, a verified identity for prizes, new accounts play and earn from day one but can redeem won points for prizes only after 14 days, no region restrictions inside the game system.
 - Every game is deterministic and records inputs, so the server can replay a run and trust only its own score.
 - Architecture, hosting and roles are the CTO's call.
 

@@ -25,7 +25,7 @@ No need to answer these; they shape the questions below.
 - **D30:** Prize pools of 5,000 points per game per week and 25,000 for the All-Games Leaderboard.
 - **D31:** The Community Bonus (50% of the week's points-try spend) is counted live into the All-Games pool in the same week. Players never see the formula.
 - **D26, D32:** A prize is paid only to an account with a verified identity (signed wallet message or verified email). The exact check at withdrawal is your call.
-- **D33:** New accounts have a reward lock of at least 14 days.
+- **D33, D41:** New accounts play and earn from day one; redeeming won points for prizes opens when the account is 14 days old. **D42:** no 18+ confirmation step for now.
 - **D34:** No region restrictions inside the game system. Checks happen only at reward withdrawal.
 - **D35:** No Plus double points on Playground prizes. Plus gets more free tries instead.
 - **D40:** Roles, hosting and topology are your decisions. Our recommendations below are advice; the requirements are in EXPECTATIONS.md.
@@ -178,8 +178,8 @@ Which check will you require before a prize or a redemption pays out: email, sig
 
 Which user facts can the Playground get: numeric user id, display name (many accounts show "No Name"), avatar URL, account creation time, staff flag, bans, preferred language? Do you store a date of birth or an adult confirmation anywhere?
 
-- **Why it matters:** Leaderboards need safe display names, eligibility needs account age (D33), staff exclusion and bans, and the Terms say point-based activities are for adults.
-- **Our recommendation or default:** Ask for a display name and a one-time "I am 18 or older and accept the Official Rules" confirmation before the first ranked run; staff accounts never receive prizes.
+- **Why it matters:** Leaderboards need safe display names, the redemption lock needs account age (D33, D41), and eligibility needs staff exclusion and bans.
+- **Our recommendation or default:** Ask for a display name; no 18+ confirmation for now (D42); staff accounts never receive prizes.
 - **Answer:**
 
 ## 5. Plus status and its history
@@ -256,10 +256,10 @@ Do points transactions carry reason codes or types, and can you add `PG_TRY_SPEN
 
 ### Q-26. Redemption hold and new-account lock
 
-Can the Reward Center make one check before each redemption and block it while the Playground reports an open review, a held or unverified prize, or an outstanding clawback? How will you apply the D33 lock of at least 14 days for new accounts?
+Can the Reward Center make one check before each redemption and block it while the Playground reports an open review, a held or unverified prize, or an outstanding clawback? How will you apply the 14-day redemption lock for new accounts (D33, D41)?
 
 - **Why it matters:** Cheating found after a payout can only be reversed if the points were not redeemed yet (spec 07, CMP-505).
-- **Our recommendation or default:** A per-user redemption-status check before every redemption (spec 02 section 9.3, I1), plus the 14-day lock on Playground credits of new accounts.
+- **Our recommendation or default:** A per-user redemption-status check before every redemption (spec 02 section 9.3, I1), plus the 14-day account-age lock on redemptions (counted from account creation).
 - **Answer:**
 
 ### Q-27. Limits on Playground credits

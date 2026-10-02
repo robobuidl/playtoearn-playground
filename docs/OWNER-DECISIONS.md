@@ -66,3 +66,10 @@ Source of truth for decisions made by the owner (PlayToEarn). Specs and build ag
 | D38 | Brand inputs (Q13) | Owner supplied the P2E Points coin and the Plus crown (`assets-src/brand/`). | Use them in the demo UI. Logo files already in `assets-src/brand/`. |
 | D39 | Delivery (Q14) | **Everything in a GitHub repository** to send to the lead dev later. | Create a private repository at handoff (confirm the name with the owner first). |
 | D40 | Roles, hosting, topology (Q8, Q9) | Lead-dev decisions, not part of this build. | Recommendations stay in the guide and questionnaire. |
+
+## 2026-10-02: clarifications while packaging for the CTO
+
+| # | Topic | Owner decision | Consequence |
+|---|-------|----------------|-------------|
+| D41 | 14-day rule (clarifies D33) | The 14-day rule is for **redeeming won points for prizes** (cashing out in the Reward Center), not for playing. | New accounts play, rank and earn Playground rewards from day one. Accounts younger than 14 days cannot redeem points for prizes; the host enforces this at redemption. No account-age hold on Playground credits. |
+| D42 | Adult (18+) confirmation | Not for now; the owner may decide on it later. | No one-time "I am 18 or older" step before ranked play in the expectations. |

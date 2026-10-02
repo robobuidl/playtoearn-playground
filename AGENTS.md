@@ -11,7 +11,7 @@ Today it is a **planning repository** (no code yet) for PlayToEarn's CTO. Do not
 ## Read first, in this order
 
 1. `docs/PLAN.md`: the lean plan, phases P1 to P5, owner checkpoints.
-2. `docs/OWNER-DECISIONS.md`: owner decisions D1 to D40. Newer entries win.
+2. `docs/OWNER-DECISIONS.md`: owner decisions D1 to D42. Newer entries win.
 3. `docs/spec/00-design-rulings.md`: glossary and rulings. **Addendum D sets the build scope and the SDK subset.**
 4. `docs/spec/03-arcade-sdk-and-anticheat.md`: game side only (sections 2 to 9, 10.1, 12, 13, 14).
 5. `docs/spec/04-games.md` and `docs/spec/games/<id>.md`: the 10 launch games.
